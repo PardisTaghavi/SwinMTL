@@ -12,6 +12,14 @@ Install dependencies:
 
 Refer to the requirements.txt file for required libraries.
 
+### Training
+
+```
+python3 trainMulti.py --dataset cityscapes --data_path ../datasets/cityscapes --max_depth 80.0 --max_depth_eval 80.0 --backbone swin_base_v2 --depths 2 2 18 2 --num_filters 32 32 32 --deconv_kernels 2 2 2 --window_size 22 22 22 11 --pretrain_window_size 12 12 12 6 --use_shift True True False False --flip_test --shift_window_test --shift_size 2 --pretrained weights/swin_v2_base_simmim.pth --save_model --crop_h 480 --crop_w 480 --layer_decay 0.9 --drop_path_rate 0.3 --log_dir logs/
+```
+
+
+
 ### Contributions:
 Introduces a multi-task learning approach for joint depth estimation and semantic segmentation.
 Achieves state-of-the-art performance on Cityscapes dataset.
