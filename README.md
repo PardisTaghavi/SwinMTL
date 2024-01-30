@@ -23,3 +23,10 @@ We welcome feedback and contributions to the SwinMTL project. Feel free to conta
 
 
 ![qualititative](https://github.com/PardisTaghavi/SwinMTL/blob/main/results/qualititativeResults.png)
+
+----------------------------------------------------------------------------------------------
+### Acknowledgments
+Special thanks to the authors of the following projects for laying the foundation of this project.
+Our code relies on GLPDepth([Link](https://github.com/vinvino02/GLPDepth)) and MIM-Depth-Estimation([Link](https://github.com/SwinTransformer/MIM-Depth-Estimation?tab=readme-ov-file)) with the model code sourced from SwinTransformer([Link](https://github.com/microsoft/Swin-Transformer)).
+
+
