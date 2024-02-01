@@ -1,6 +1,8 @@
 # SwinMTL
 
 This readme file provides an overview of the SwinMTL project, a multi-task learning framework for simultaneous depth estimation and semantic segmentation using the Swin Transformer architecture.
+Project website: 
+Paper: 
 
 
 ### Installation
