@@ -6,6 +6,8 @@ This readme file provides an overview of the SwinMTL project, a multi-task learn
 Project website: 
 Paper: 
 
+![qualititative](https://github.com/PardisTaghavi/SwinMTL/blob/main/results/qualititativeResults.png)
+
 
 ### Installation
 Clone the repository: 
