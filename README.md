@@ -34,7 +34,6 @@ Enables 3D scene reconstruction through voxel map generation.
 We welcome feedback and contributions to the SwinMTL project. Feel free to contact taghavi.pardis@gmail.com
 
 
-![qualititative](https://github.com/PardisTaghavi/SwinMTL/blob/main/results/qualititativeResults.png)
 
 ----------------------------------------------------------------------------------------------
 ### Acknowledgments
