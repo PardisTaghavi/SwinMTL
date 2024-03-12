@@ -31,7 +31,7 @@ Create conda environment and activate it:
 ### Testing
 
 Refer to testLive.ipynb for testing.
-Pretrained models can be downloaded here.
+Pretrained models can be downloaded [here](https://drive.google.com/drive/folders/1P91LEB4PXPomcAcdYzXRw4_9TVdFpYTA?usp=sharing).
 
 ### <ins>Zero-shot</ins> results on the Kitti Dataset
 
