@@ -2,6 +2,14 @@
 
 [![Static Badge](https://img.shields.io/badge/Project_Page-SwinMTL-green?style=flat)](https://pardistaghavi.github.io/SwinMTL.html)
 
+<!--
+<p>
+  <a href="" target='_blank'>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=PardisTaghavi.SwinMTL&left_color=gray&right_color=red">
+  </a>
+</p>
+-->
+
 
 # SwinMTL
 
