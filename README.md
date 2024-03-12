@@ -1,6 +1,6 @@
 
 
-[![Static Badge](https://img.shields.io/badge/Project_Page-https%3A%2F%2Fpardistaghavi.github.io%2FSwinMTL.html-green?style=flat)](https://pardistaghavi.github.io/SwinMTL.html)
+[![Static Badge](https://img.shields.io/badge/Project_Page-SwinMTL-green?style=flat)](https://pardistaghavi.github.io/SwinMTL.html)
 
 
 # SwinMTL
