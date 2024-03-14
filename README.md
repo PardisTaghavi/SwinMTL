@@ -19,8 +19,8 @@ Project website: [SwinMTL Project Page](https://pardistaghavi.github.io/SwinMTL.
 
 Paper: [Link to Paper]
 
-![qualititative](https://github.com/PardisTaghavi/SwinMTL/blob/main/results/qualititativeResults2.png)
 
+ <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/results/qualititativeResults2.png" alt="qualititative" width="800"/>
 
 ### Installation
 Clone the repository: 
