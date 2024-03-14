@@ -19,7 +19,7 @@ Project website: [SwinMTL Project Page](https://pardistaghavi.github.io/SwinMTL.
 
 Paper: [Link to Paper]
 
-![qualititative](https://github.com/PardisTaghavi/SwinMTL/blob/main/results/qualititativeResults.png)
+![qualititative](https://github.com/PardisTaghavi/SwinMTL/blob/main/results/qualititativeResults2.png)
 
 
 ### Installation
