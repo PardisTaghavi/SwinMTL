@@ -43,7 +43,7 @@ Pretrained models can be downloaded [here](https://drive.google.com/drive/folder
 
 ### <ins>Zero-shot</ins> results on the Kitti Dataset
 
-![ezgif com-gif-maker](https://github.com/PardisTaghavi/SwinMTL/blob/main/KittiZeroShotDemo.gif)
+<img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/KittiZeroShotDemo.gif" width="350">
 
 
 
