@@ -17,7 +17,7 @@ This readme file provides an overview of the SwinMTL project, a multi-task learn
 
 Project website: [SwinMTL Project Page](https://pardistaghavi.github.io/SwinMTL.html)
 
-Paper: [Link to Paper]
+Paper: [SwinMTL](https://arxiv.org/abs/2403.10662)
 
 
  <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/results/qualititativeResults2.png" alt="qualititative" width="800"/>
