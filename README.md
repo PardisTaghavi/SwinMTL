@@ -1,6 +1,6 @@
 
 
-[![Static Badge](https://img.shields.io/badge/Project_Page-SwinMTL-green?style=flat)](https://pardistaghavi.github.io/SwinMTL.html)
+[![Static Badge](https://img.shields.io/badge/Project_Page-SwinMTL-green?style=flat)](https://pardistaghavi.github.io/SwinMTL.html) [![Static Badge](https://img.shields.io/badge/Paper-SwinMTL-blue?style=flat)]((https://arxiv.org/abs/2403.10662))
 
 <!--
 <p>
@@ -15,10 +15,11 @@
 
 This readme file provides an overview of the SwinMTL project, a multi-task learning framework for simultaneous depth estimation and semantic segmentation using the Swin Transformer architecture.
 
+<!--
 Project website: [SwinMTL Project Page](https://pardistaghavi.github.io/SwinMTL.html)
 
 Paper: [SwinMTL](https://arxiv.org/abs/2403.10662)
-
+-->
 
  <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/results/qualititativeResults2.png" alt="qualititative" width="800"/>
 
