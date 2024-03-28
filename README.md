@@ -1,6 +1,6 @@
 
 
-[![Static Badge](https://img.shields.io/badge/Project_Page-SwinMTL-green?style=flat)](https://pardistaghavi.github.io/SwinMTL.html) [![Static Badge](https://img.shields.io/badge/Paper-SwinMTL-blue?style=flat)]((https://arxiv.org/abs/2403.10662))
+[![Static Badge](https://img.shields.io/badge/Project_Page-SwinMTL-green?style=flat)](https://pardistaghavi.github.io/SwinMTL.html) [![Static Badge](https://img.shields.io/badge/Paper-SwinMTL-blue?style=flat)](https://arxiv.org/abs/2403.10662)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swinmtl-a-shared-architecture-for/multi-task-learning-on-nyuv2)](https://paperswithcode.com/sota/multi-task-learning-on-nyuv2?p=swinmtl-a-shared-architecture-for)
 
