@@ -1,19 +1,10 @@
-name: prc
+name: prc4
 channels:
   - conda-forge
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
-  - blas=1.0=openblas
-  - brotlipy=0.7.0=py38h27cfd23_1003
-  - ca-certificates=2023.08.22=h06a4308_0
-  - cffi=1.15.1=py38h5eee18b_3
-  - conda-pack=0.6.0=pyhd3eb1b0_0
-  - cryptography=41.0.3=py38hdda0065_0
-  - cudatoolkit=11.3.1=h2bc3f7f_2
-  - fftw=3.3.9=h27cfd23_1
-  - future=0.18.3=py38h06a4308_0
   - jinja2=3.1.2=py38h06a4308_0
   - ld_impl_linux-64=2.38=h1181459_1
   - libblas=3.9.0=15_linux64_openblas
@@ -29,7 +20,9 @@ dependencies:
   - libstdcxx-ng=11.2.0=h1234567_1
   - ncurses=6.4=h6a678d5_0
   - ninja-base=1.10.2=hd09550d_5
+  - openblas=0.3.20=pthreads_h320a7e8_0
   - openssl=3.0.10=h7f8727e_2
+  - pip=24.0=pyhd8ed1ab_0
   - psutil=5.9.0=py38h5eee18b_0
   - pycparser=2.21=pyhd3eb1b0_0
   - pyopenssl=23.2.0=py38h06a4308_0
@@ -41,7 +34,6 @@ dependencies:
   - sqlite=3.41.2=h5eee18b_0
   - tk=8.6.12=h1ccaba5_0
   - tqdm=4.65.0=py38hb070fc8_0
-  - typing_extensions=4.8.0=pyha770c72_0
   - wheel=0.38.4=py38h06a4308_0
   - xz=5.4.2=h5eee18b_0
   - yaml=0.2.5=h7b6447c_0
@@ -53,13 +45,15 @@ dependencies:
     - aliyun-python-sdk-core==2.13.36
     - aliyun-python-sdk-kms==2.16.2
     - ansi2html==1.8.0
-    - aria2p==0.11.3
+    - aria2p==0.12.0
+    - arrow==1.3.0
     - asciimatics==1.15.0
     - ase==3.22.1
     - astunparse==1.6.3
-    - azfuse==0.1
-    - azure-core==1.30.0
-    - azure-storage-blob==12.19.0
+    - attrs==23.2.0
+    - azure-core==1.30.1
+    - azure-storage-blob==12.19.1
+    - beautifulsoup4==4.12.3
     - biopython==1.81
     - boto3==1.34.46
     - botocore==1.34.46
@@ -70,7 +64,6 @@ dependencies:
     - chardet==4.0.0
     - charset-normalizer==2.1.1
     - click==8.1.7
-    - clip==1.0
     - cmake==3.25.0
     - colorama==0.4.6
     - colorspacious==1.1.2
@@ -78,14 +71,11 @@ dependencies:
     - configargparse==1.7
     - copulalib==2.0.1
     - crcmod==1.7
-    - cumm-cu102==0.4.11
-    - cumm-cu114==0.2.9
-    - cumm-cu118==0.4.5
+    - cycler==0.12.1
     - dash==2.13.0
     - dash-core-components==2.0.0
     - dash-html-components==2.0.0
     - dash-table==5.0.0
-    - dcnv3==1.0
     - decorator==5.1.1
     - defusedxml==0.7.1
     - deprecated==1.2.14
@@ -96,6 +86,8 @@ dependencies:
     - fire==0.5.0
     - flask==2.2.5
     - flatbuffers==23.5.26
+    - fonttools==4.51.0
+    - fqdn==1.5.1
     - fsspec==2023.9.1
     - ftfy==6.1.3
     - gast==0.4.0
@@ -108,15 +100,25 @@ dependencies:
     - idna==2.10
     - imageio==2.31.5
     - importlib-metadata==6.8.0
+    - importlib-resources==6.4.0
     - ipywidgets==8.1.1
     - isodate==0.6.1
+    - isoduration==20.11.0
     - itsdangerous==2.1.2
     - jmespath==0.10.0
     - joblib==1.3.2
+    - jsonpointer==2.4
+    - jsonschema==4.21.1
+    - jsonschema-specifications==2023.12.1
     - jstyleson==0.0.2
+    - jupyter-core==5.7.2
+    - jupyter-events==0.10.0
+    - jupyter-server==2.13.0
+    - jupyter-server-terminals==0.5.3
     - jupyterlab-widgets==3.0.9
     - keras==2.8.0
     - keras-preprocessing==1.1.2
+    - kiwisolver==1.4.5
     - lark==1.1.7
     - lazy-loader==0.3
     - libclang==16.0.6
@@ -140,17 +142,17 @@ dependencies:
     - netron==7.1.9
     - networkx==2.8.8
     - ninja==1.11.1
-    - numpy==1.24.1
+    - numpy==1.24.4
     - nuscenes-devkit==1.1.10
     - nvidia-cublas-cu11==11.10.3.66
-    - nvidia-cublas-cu12==12.2.5.6
+    - nvidia-cublas-cu12==12.4.5.8
     - nvidia-cuda-cupti-cu11==11.7.101
     - nvidia-cuda-nvrtc-cu11==11.7.99
     - nvidia-cuda-nvrtc-cu12==12.2.140
     - nvidia-cuda-runtime-cu11==11.7.99
-    - nvidia-cuda-runtime-cu12==12.2.140
+    - nvidia-cuda-runtime-cu12==12.4.127
     - nvidia-cudnn-cu11==8.5.0.96
-    - nvidia-cudnn-cu12==8.9.4.25
+    - nvidia-cudnn-cu12==9.0.0.312
     - nvidia-cufft-cu11==10.9.0.58
     - nvidia-curand-cu11==10.2.10.91
     - nvidia-cusolver-cu11==11.4.0.1
@@ -167,21 +169,20 @@ dependencies:
     - opencv-python-headless==4.8.1.78
     - opendatalab==0.0.10
     - openmim==0.3.9
-    - openvino==2022.3.0
-    - openvino-dev==2022.3.0
-    - openvino-telemetry==2023.1.1
-    - openxlab==0.0.25
+    - openvino==2024.0.0
+    - openvino-dev==2024.0.0
+    - openvino-telemetry==2023.2.1
+    - openxlab==0.0.11
     - opt-einsum==3.3.0
     - oss2==2.17.0
+    - overrides==7.7.0
     - packaging==23.1
     - pars==0.1.4
     - parse==1.19.1
     - pathlib2==2.3.7.post1
     - patsy==0.5.4
-    - pccm==0.3.4
     - pexpect==4.8.0
     - pillow==9.3.0
-    - pip==23.3.2
     - platformdirs==3.10.0
     - plotly==5.17.0
     - prettytable==3.9.0
@@ -191,9 +192,11 @@ dependencies:
     - pycryptodome==3.19.0
     - pycuda==2022.2.2
     - pyfiglet==0.8.post1
-    - pyg-lib==0.2.0+pt20cu118
+    - pygments==2.17.2
     - pyperclip==1.8.2
     - pypng==0.20220715.0
+    - python-dateutil==2.9.0.post0
+    - python-json-logger==2.0.7
     - python-louvain==0.16
     - pytools==2023.1.1
     - pytz==2023.3.post1
@@ -201,23 +204,25 @@ dependencies:
     - pyyaml==6.0.1
     - qudida==0.0.4
     - rdflib==7.0.0
+    - referencing==0.34.0
     - regex==2023.12.25
-    - requests==2.28.2
+    - requests==2.25.1
     - retrying==1.3.4
+    - rfc3339-validator==0.1.4
+    - rfc3986-validator==0.1.1
     - rich==13.4.2
+    - rpds-py==0.18.0
     - s3transfer==0.10.0
     - safetensors==0.3.3
     - scikit-image==0.21.0
     - scikit-learn==1.3.1
     - scipy==1.10.1
     - seaborn==0.9.0
+    - send2trash==1.8.2
     - setuptools==60.2.0
     - shapely==1.8.5
     - six==1.16.0
-    - spconv-cu102==2.3.6
-    - spconv-cu114==2.1.25
-    - spconv-cu118==2.3.3
-    - sptr==0.0.0
+    - soupsieve==2.5
     - statsmodels==0.14.0
     - sympy==1.11.1
     - tenacity==8.2.3
@@ -229,7 +234,7 @@ dependencies:
     - tensorflow-io-gcs-filesystem==0.34.0
     - tensorrt==8.6.1
     - tensorrt-bindings==8.6.1
-    - tensorrt-libs==8.6.1
+    - termcolor==2.4.0
     - texttable==1.6.7
     - tf-estimator-nightly==2.8.0.dev2021122109
     - threadpoolctl==3.2.0
@@ -238,24 +243,24 @@ dependencies:
     - tokenizers==0.15.0
     - toml==0.10.2
     - tomli==2.0.1
-    - torch==2.0.1+cu118
-    - torch-cluster==1.6.1
-    - torch-geometric==1.7.2
-    - torch-scatter==2.1.1
-    - torch-sparse==0.6.17
-    - torch-spline-conv==1.2.2+pt20cu118
-    - torchaudio==2.0.2+rocm5.4.2
+    - torch==2.0.1
+    - torchaudio==2.0.2
     - torchstat==0.0.7
     - torchsummary==1.5.1
-    - torchvision==0.15.2+cu118
+    - torchvision==0.15.2
+    - traitlets==5.14.2
     - transformers==4.36.2
     - triton==2.0.0
+    - types-python-dateutil==2.9.0.20240316
     - typing-extensions==4.9.0
+    - uri-template==1.3.0
     - urllib3==1.26.13
     - viscm==0.9
     - wcwidth==0.2.12
+    - webcolors==1.13
     - werkzeug==2.2.3
     - widgetsnbextension==4.0.9
     - yapf==0.40.1
-prefix: /home/avalocal/anaconda3/envs/prc
+    - zipp==3.18.1
+prefix: /home/avalocal/anaconda3/envs/prc2
 
