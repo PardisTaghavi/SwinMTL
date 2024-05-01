@@ -36,7 +36,13 @@ To run the testing for the project, follow the below steps:
 2. Move Pretrained Models:
     - Create a new folder named `model_zoo `
     - After downloading, move the pretrained models into the model_zoo folder you created in the project directory.
-    - Refer to `testLive.ipynb` for testing. 
+    - Refer to `testLive.ipynb` for testing.
+### 3D Mapping
+
+
+<div align="center">
+  <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/voxelmapDemo-ezgif.com-video-to-gif-converter.gif" alt="3D Mapping Results" width="350">
+</div>
 
 ### Zero-shot Results on the Kitti Dataset
 
