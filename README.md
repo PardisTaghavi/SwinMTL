@@ -21,7 +21,8 @@ To get started, follow these steps:
    source devel/setup.bash
    cd src/SwinMTL_ROS/src
    git clone https://github.com/PardisTaghavi/SwinMTL.git
-   mv ./Launch/ ./..  
+   chmod +x inference_ros.py
+   mv ./launch/ ./..  
    ```
 1. Clone the repository:
     ```bash
@@ -51,7 +52,7 @@ To run the testing for the project, follow the below steps:
   
 ### ROS Launch
 ```bash
-roslauch SwinMTL_ROS swinmtl_launch.launch
+roslaunch SwinMTL_ROS swinmtl_launch.launch
 ```
 ### 3D Mapping
 
