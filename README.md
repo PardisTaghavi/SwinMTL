@@ -51,7 +51,7 @@ To run the testing for the project, follow the below steps:
   
 ### ROS Launch
 ```bash
-roslauch *** ***
+roslauch SwinMTL_ROS swinmtl_launch.launch
 ```
 ### 3D Mapping
 
