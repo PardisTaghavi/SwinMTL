@@ -21,7 +21,7 @@ To get started, follow these steps:
    source devel/setup.bash
    cd src/SwinMTL_ROS/src
    git clone https://github.com/PardisTaghavi/SwinMTL.git
-   mv Launch_folder to SwinMTL folder
+   mv ./Launch/ ./..  
    ```
 1. Clone the repository:
     ```bash
