@@ -1,0 +1,6 @@
+
+<launch>
+    <!-- Node -->
+    <node name="perception_node" pkg="SwinMTL_ROS" type="inference_ros.py" output="screen" respawn="true">
+    </node>
+</launch>
