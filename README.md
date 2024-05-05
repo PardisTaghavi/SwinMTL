@@ -12,6 +12,16 @@ Welcome to the SwinMTL project, a multi-task learning framework designed for sim
 
 To get started, follow these steps:
 
+0. Only for ROS installation (otherwise skip this part)
+   ```bash
+   cd catkin_ws/src
+   catkin_create_pkg SwinMTL_ROS std_msgs rospy
+   cd ..
+   catkin_make
+   source devel/setup.bash
+   cd src/SwinMTL_ROS/src
+   git clone https://github.com/PardisTaghavi/SwinMTL.git 
+   ```
 1. Clone the repository:
     ```bash
     git clone https://github.com/PardisTaghavi/SwinMTL.git
@@ -43,6 +53,9 @@ To run the testing for the project, follow the below steps:
 <div align="center">
   <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/voxelmapDemo-ezgif.com-video-to-gif-converter.gif" alt="3D Mapping Results" width="350">
 </div>
+
+### ROS Installation
+
 
 ### Zero-shot Results on the Kitti Dataset
 
