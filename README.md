@@ -20,7 +20,8 @@ To get started, follow these steps:
    catkin_make
    source devel/setup.bash
    cd src/SwinMTL_ROS/src
-   git clone https://github.com/PardisTaghavi/SwinMTL.git 
+   git clone https://github.com/PardisTaghavi/SwinMTL.git
+   mv Launch_folder to SwinMTL folder
    ```
 1. Clone the repository:
     ```bash
@@ -47,6 +48,11 @@ To run the testing for the project, follow the below steps:
     - Create a new folder named `model_zoo `
     - After downloading, move the pretrained models into the model_zoo folder you created in the project directory.
     - Refer to `testLive.ipynb` for testing.
+  
+### ROS Launch
+```bash
+roslauch *** ***
+```
 ### 3D Mapping
 
 
@@ -54,7 +60,6 @@ To run the testing for the project, follow the below steps:
   <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/voxelmapDemo-ezgif.com-video-to-gif-converter.gif" alt="3D Mapping Results" width="350">
 </div>
 
-### ROS Installation
 
 
 ### Zero-shot Results on the Kitti Dataset
