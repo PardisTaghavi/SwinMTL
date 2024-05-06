@@ -58,7 +58,7 @@ roslaunch SwinMTL_ROS swinmtl_launch.launch
 
 
 <div align="center">
-  <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/voxelmapDemo-ezgif.com-video-to-gif-converter.gif" alt="3D Mapping Results" width="350">
+  <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/voxelmapDemo-ezgif.com-video-to-gif-converter.gif" alt="3D Mapping Results" width="300">
 </div>
 
 
