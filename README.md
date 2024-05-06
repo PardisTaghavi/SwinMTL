@@ -54,19 +54,24 @@ To run the testing for the project, follow the below steps:
 ```bash
 roslaunch SwinMTL_ROS swinmtl_launch.launch
 ```
+<div align="center">
+  <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/ros3nodes.gif" alt="Zero-shot Results" width="300">
+</div>
+
 ### 3D Mapping
 
-
 <div align="center">
-  <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/voxelmapDemo-ezgif.com-video-to-gif-converter.gif" alt="3D Mapping Results" width="300">
+  <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/voxelmapDemo-ezgif.com-video-to-gif-converter.gif" alt="3D Mapping Results" width="400">
 </div>
+
+
 
 
 
 ### Zero-shot Results on the Kitti Dataset
 
 <div align="center">
-  <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/KittiZeroShotDemo.gif" alt="Zero-shot Results" width="350">
+  <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/KittiZeroShotDemo.gif" alt="Zero-shot Results" width="300">
 </div>
 
 ### Contributions
