@@ -15,6 +15,7 @@ from mmcv.cnn import (build_conv_layer, build_norm_layer, build_upsample_layer,
 from models.swin_transformer_v2 import SwinTransformerV2
 import cv2
 import numpy as np
+from huggingface_hub import PyTorchModelHubMixin
 
 def pretrained_weights_model(pretrained):
     #rename dict keys
@@ -29,7 +30,7 @@ def pretrained_weights_model(pretrained):
     return pretrained
 
 
-class GLPDepth(nn.Module):
+class GLPDepth(nn.Module, PyTorchModelHubMixin):
     def __init__(self, args=None):
         super().__init__()
         self.max_depth = args.max_depth
