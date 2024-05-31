@@ -6,22 +6,16 @@
 #  moddified by Pardis Taghavi (taghavi.pardis@gmail.com)
 # ------------------------------------------------------------------------------
 
-import cv2
-import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from huggingface_hub import PyTorchModelHubMixin
-from mmcv.cnn import (
-    build_conv_layer,
-    build_norm_layer,
-    build_upsample_layer,
-    constant_init,
-    normal_init,
-)
 
+from mmcv.cnn import (build_conv_layer, build_norm_layer, build_upsample_layer,
+                      constant_init, normal_init)
 from models.swin_transformer_v2 import SwinTransformerV2
-
+import cv2
+import numpy as np
+from huggingface_hub import PyTorchModelHubMixin
 
 def pretrained_weights_model(pretrained):
     #rename dict keys
