@@ -262,5 +262,5 @@ dependencies:
     - widgetsnbextension==4.0.9
     - yapf==0.40.1
     - zipp==3.18.1
-prefix: /home/avalocal/anaconda3/envs/prc2
+prefix: /home/avalocal/anaconda3/envs/prc
 
