@@ -1,4 +1,4 @@
-name: prc4
+name: prc
 channels:
   - conda-forge
   - defaults
