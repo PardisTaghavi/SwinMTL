@@ -1,8 +1,12 @@
 # SwinMTL: Multi-Task Learning with Swin Transformer
 
-Welcome to the SwinMTL project, a multi-task learning framework designed for simultaneous depth estimation and semantic segmentation using the Swin Transformer architecture.
+A multi-task learning framework designed for simultaneous depth estimation and semantic segmentation using the Swin Transformer architecture.
 
 [![Project Page](https://img.shields.io/badge/Project_Page-SwinMTL-green?style=flat)](https://pardistaghavi.github.io/SwinMTL.html) [![Paper](https://img.shields.io/badge/Paper-SwinMTL-blue?style=flat)](https://arxiv.org/abs/2403.10662) [![Papers with Code](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swinmtl-a-shared-architecture-for/multi-task-learning-on-nyuv2)](https://paperswithcode.com/sota/multi-task-learning-on-nyuv2?p=swinmtl-a-shared-architecture-for)
+
+### News
+- **Paper Accepted for IROS 2024 Conference:** Our paper on SwinMTL has been accepted for presentation at the IROS 2024 conference!
+
 
 <div align="center">
   <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/results/qualititativeResults2.png" alt="Qualitative Results" width="800"/>
