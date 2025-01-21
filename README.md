@@ -1,4 +1,4 @@
-# [IROS24]SwinMTL: Multi-Task Learning with Swin Transformer
+# [IROS24] SwinMTL: Multi-Task Learning with Swin Transformer
 
 A multi-task learning framework designed for simultaneous depth estimation and semantic segmentation using the Swin Transformer architecture.
 
