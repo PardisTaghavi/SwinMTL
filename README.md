@@ -76,20 +76,15 @@ roslaunch SwinMTL_ROS swinmtl_launch.launch
   <img src="https://github.com/PardisTaghavi/SwinMTL/blob/main/KittiZeroShotDemo.gif" alt="Zero-shot Results" width="300">
 </div>
 
-### Contributions
+### Citation
 
-- Introduction of a multi-task learning approach for joint depth estimation and semantic segmentation.
-- Achievement of state-of-the-art performance on Cityscapes and NYUv2 datasets.
-- Utilization of an efficient shared encoder-decoder architecture coupled with novel techniques to enhance accuracy.
-
-We welcome feedback and contributions to the SwinMTL project. Feel free to contact taghavi.pardis@gmail.com.
-
----
-
-### Acknowledgments
-
-Special thanks to the authors of the following projects for laying the foundation of this work. Our code relies on:
-
-- [GLPDepth](https://github.com/vinvino02/GLPDepth)
-- [MIM-Depth-Estimation](https://github.com/SwinTransformer/MIM-Depth-Estimation?tab=readme-ov-file)
-- [SwinTransformer](https://github.com/microsoft/Swin-Transformer)
+If you find our project useful, please consider citing:
+```bibtex
+@inproceedings{taghavi2024swinmtl,
+  title={SwinMTL: A shared architecture for simultaneous depth estimation and semantic segmentation from monocular camera images},
+  author={Taghavi, Pardis and Langari, Reza and Pandey, Gaurav},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={4957--4964},
+  year={2024},
+  organization={IEEE}
+}
