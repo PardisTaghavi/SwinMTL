@@ -45,10 +45,10 @@ To get started, follow these steps:
 To run the testing for the project, follow the below steps:
 
 1. Download Pretrained Models:
-    - [here](https://drive.google.com/drive/folders/1P91LEB4PXPomcAcdYzXRw4_9TVdFpYTA?usp=sharing) access the pretrained models.
+    - [here](https://drive.google.com/drive/folders/1MCiyAnMI14gyfCrKC4yme0UANNOdtvuH?usp=sharing) access the pretrained models.
     - Download the pretrained models you need.
 
-2. Move Pretrained Models:
+3. Move Pretrained Models:
     - Create a new folder named `model_zoo`  and  move the pretrained models into the model_zoo folder you created in the project directory.
     - Refer to `testLive.ipynb` for testing.
   
